@@ -22,7 +22,7 @@
 /*Contenido*/
 .container {
   position: relative;
-  top: 150px;
+  top: 100px;
   left: 90px;
   width: 960px;
   height: 510px;
@@ -58,11 +58,14 @@
 }
 .roundImg {
   border-radius: 50%;
+  position:absolute;
+  top:128px;
+  left:90px;
 }
 .heroTitle {
   text-align: center;
   font-weight: 400;
-  margin-top: 120px;
+  margin-top: 240px;
 }
 .heroParaph {
   font-size: 16px;
@@ -71,14 +74,13 @@
 }
 .verMas {
   width: 128px;
-  height: 48px;
+  height: 45px;
   background-color: #00669f;
   border-style: none;
   border-radius: 3px;
   color: white;
   position: relative;
   left: 85px;
-  top: 28px;
 }
 .copyRight {
   background-color: #00669f;
